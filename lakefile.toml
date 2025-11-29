@@ -1,0 +1,10 @@
+name = "groups"
+version = "0.1.0"
+defaultTargets = ["groups"]
+
+[[lean_lib]]
+name = "Groups"
+
+[[lean_exe]]
+name = "groups"
+root = "Main"
