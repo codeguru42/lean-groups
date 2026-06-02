@@ -13,6 +13,13 @@ theorem bijection_iff_has_inverse :
   · intro hb
     sorry
   · intro hi
-    sorry
+    apply And.intro
+    · intro x₁ x₂ hf
+      sorry
+    · intro y
+      cases hi with
+      | intro w hw =>
+        · exists w y
+          sorry
 
 end Functions
