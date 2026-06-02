@@ -20,6 +20,8 @@ theorem bijection_iff_has_inverse :
       cases hi with
       | intro w hw =>
         · exists w y
-          sorry
+          change (f ∘ w) y = y
+          rw [hw]
+          rfl
 
 end Functions
